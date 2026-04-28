@@ -1,1 +1,2 @@
-export declare function clamp(valor: number, min: number, max: number): number;
+export { Facturas } from "./facturas.js";
+export { clamp } from "./math.js";

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { clamp } from "../src/index.js";
+import { clamp } from "../src/math.js";
 
 describe("probando clamo", () => {
     it("debe devolver el valor minimo si es menor al rango", () => {
